@@ -1,0 +1,17 @@
+data/
+datasets/
+checkpoints/
+models/
+*.pt
+*.bin
+*.pkl
+*.npy
+*.zip
+*.tar
+*.ckpt
+
+# local data / embeddings
+Data/
+*.npy
+*.npz
+*.obj
