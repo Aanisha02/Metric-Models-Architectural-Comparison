@@ -10,7 +10,6 @@ models/
 *.pkl
 *.npy
 *.npz
-*.obj
 *.zip
 *.tar
 *.ckpt
@@ -19,4 +18,3 @@ models/
 !Data/
 Data/*.npy
 Data/*.npz
-Data/*.obj
