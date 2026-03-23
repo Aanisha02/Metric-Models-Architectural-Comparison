@@ -1,17 +1,22 @@
+# Folders to ignore
 data/
 datasets/
 checkpoints/
 models/
+
+# Ignore large ML artifacts everywhere
 *.pt
 *.bin
 *.pkl
 *.npy
+*.npz
+*.obj
 *.zip
 *.tar
 *.ckpt
 
-# local data / embeddings
-Data/
-*.npy
-*.npz
-*.obj
+# Allow Data folder but control inside it
+!Data/
+Data/*.npy
+Data/*.npz
+Data/*.obj
